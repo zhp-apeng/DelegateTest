@@ -84,7 +84,7 @@ namespace DelegateTest
         #region 测试4
         public static void add()
         {
-            //测试4测试4测试4
+            //测试4测试4测试4 
         }
 
         #endregion
