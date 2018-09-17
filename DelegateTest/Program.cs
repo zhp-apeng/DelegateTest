@@ -80,11 +80,21 @@ namespace DelegateTest
             //del();
 
             var str = "absBHN";
-            var res = HandleStr(str,StrTolower);
-
+            var res = HandleStr(str, StrTolower);
             res = HandleStr(str, delegate(string s) { return s.ToUpper(); });
-            Console.WriteLine(res);
 
+
+            HandleStrDel del2 = delegate(string str2)
+            {
+                return str2.ToUpper();
+            };
+            res = del2("serwDFLJDK");
+            
+
+
+            HandleStrDel del3 = (string str3) => { return str3.ToUpper(); };
+            res = del3("fsdhfjKKJ");
+            Console.WriteLine(res);
 
             Console.WriteLine("结束。。。");
             Console.ReadKey();
