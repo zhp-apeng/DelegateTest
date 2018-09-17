@@ -50,6 +50,8 @@ namespace DelegateTest
 
     public delegate void ComputeDel();
 
+    public delegate string HandleStrDel(string str);
+
     public class ComputeTools
     {
         public void Multiple()
@@ -72,14 +74,40 @@ namespace DelegateTest
             //ComputeDel del = new ComputeDel(tool.Multiple);
             ComputeDel del = tool.Multiple;
 
-            del += tool.Divide;
-            del += tool.Multiple;
-            del -= tool.Multiple;
+            //del += tool.Divide;
+            //del += tool.Multiple;
+            //del -= tool.Multiple;
+            //del();
 
-            del();
+            var str = "absBHN";
+            var res = HandleStr(str,StrTolower);
+
+            res = HandleStr(str, delegate(string s) { return s.ToUpper(); });
+            Console.WriteLine(res);
+
+
             Console.WriteLine("结束。。。");
             Console.ReadKey();
         }
+
+
+
+        public static string HandleStr(string str, HandleStrDel del)
+        {
+            return del(str);
+        }
+
+
+        public static string StrToUpper(string str)
+        {
+            return str.ToUpper();
+        }
+        public static string StrTolower(string str)
+        {
+            return str.ToLower();
+        }
+
+
 
         #region 测试4
         public static void add()
