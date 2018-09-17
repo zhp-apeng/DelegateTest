@@ -80,14 +80,20 @@ namespace DelegateTest
             Console.WriteLine("结束。。。");
             Console.ReadKey();
         }
+
+        #region 测试3
+        public static void add()
+        {
+            //发达国家史蒂夫
+        }
+
+        #endregion
     }
 
     #endregion
 
 
-    #region 测试3
 
-    #endregion
 
 }
 
