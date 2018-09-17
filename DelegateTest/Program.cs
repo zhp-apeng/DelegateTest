@@ -81,10 +81,10 @@ namespace DelegateTest
             Console.ReadKey();
         }
 
-        #region 测试3
+        #region 测试4
         public static void add()
         {
-            //发达国家史蒂夫
+            //测试4测试4测试4
         }
 
         #endregion
