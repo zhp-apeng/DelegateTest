@@ -4,3 +4,9 @@ D:\Zhp-work\TestProject\DelegateTest\DelegateTest\bin\Debug\DelegateTest.pdb
 D:\Zhp-work\TestProject\DelegateTest\DelegateTest\obj\Debug\DelegateTest.csprojResolveAssemblyReference.cache
 D:\Zhp-work\TestProject\DelegateTest\DelegateTest\obj\Debug\DelegateTest.exe
 D:\Zhp-work\TestProject\DelegateTest\DelegateTest\obj\Debug\DelegateTest.pdb
+E:\Test\DelegateTest\DelegateTest\bin\Debug\DelegateTest.exe.config
+E:\Test\DelegateTest\DelegateTest\obj\Debug\DelegateTest.exe
+E:\Test\DelegateTest\DelegateTest\obj\Debug\DelegateTest.pdb
+E:\Test\DelegateTest\DelegateTest\bin\Debug\DelegateTest.exe
+E:\Test\DelegateTest\DelegateTest\bin\Debug\DelegateTest.pdb
+E:\Test\DelegateTest\DelegateTest\obj\Debug\DelegateTest.csprojResolveAssemblyReference.cache
